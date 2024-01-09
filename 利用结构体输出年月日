@@ -1,0 +1,22 @@
+#include<stdio.h>
+
+typedef struct NYR
+{
+	int n;
+	int y;
+	int r;
+}NYR;
+typedef struct SFM
+{
+	int s;
+	int f;
+	int m;
+}SFM;
+int main()
+{
+	NYR a = { 2024,1,9 };
+	SFM b = { 22,48,50 };
+	printf("%d/%d/%d\n", a.n, a.y, a.r);
+	printf("%d:%d:%d\n", b.s, b.f, b.m);
+	return 0;
+}
